@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <title>Python Developer</title>
+  <link rel="stylesheet" href="base.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="head">
+      <div class="logo">LOGO</div>
+      <nav class="nav">
+        <a href="#about" class="nav-btn">About</a>
+        <a href="#portfolio" class="nav-btn">Portfolio</a>
+        <a href="#contacts" class="nav-btn">Contacts</a>
+      </nav>
+      <button id="theme-toggle" class="btn alt">🌙/☀️</button>
+    </header>
+    <section class="hero">
+      <div class="info">
+        <p>JOHN DOE</p>
+        <h1>PYTHON DEVELOPER</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        <div class="btns">
+          <a href="cv.pdf" class="btn">Download CV</a>
+          <a href="#about" class="btn alt">Learn More</a>
+        </div>
+      </div>
+      <div class="photo">
+        <div class="ph-outline">
+          <img src="icons/images (5).jfif" alt="Profile photo" />
+          <span class="status-badge">● Online</span>
+        </div>
+      </div>
+    </section>
+    <hr class="line" />
+    <section id="about" class="about">
+      <h2>ABOUT</h2>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+      <div class="cont">
+        <div class="shot">
+          <img src="icons/51ea5fb1-304d-42c0-84b6-17bf3016c41e.png" alt="Workspace photo" />
+        </div>
+        <div class="txt">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+          <a href="#portfolio" class="btn alt">Learn More</a>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="card">
+          <img src="icons/c214037e-414c-4bbf-886d-88a37c563a6a.png" alt="HTML"/>
+          <h3>HTML</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+        <div class="card">
+          <img src="icons/f359dcff-c6bc-4b5c-a596-e3acb81b1105.png" alt="CSS" />
+          <h3>CSS</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+        <div class="card">
+          <img src="icons/e5083dc3-aaf7-4637-9b65-26e7f375d71f.png" alt="SASS" />
+          <h3>SASS</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+        <div class="card">
+          <img src="icons/55d78258-278a-40ba-92d4-61ed55a9348f.png" alt="Python"/>
+          <h3>PYTHON</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+      </div>
+    </section>
+    <hr class="line" />
+    <section id="portfolio" class="portf">
+      <h2>MY PORTFOLIO</h2>
+      <p class="portf-lead">Lorem ipsum dolor sit amet consectetur.</p>
+      <div class="projects">
+        <div class="proj">
+          <img src="icons/724c63e9-ba73-4e1a-8d64-5027acfae129.png" alt="Admin Dashboard" />
+          <p>Product Admin Dashboard</p>
+          <p>Lorem ipsum dolor sit amet...</p>
+          <a href="project1.html" class="btn alt">LIVE PAGE</a>
+        </div>
+        <div class="proj">
+          <img src="icons/12b1e580-b8f1-4606-85b4-35243ce00046.png" alt="Website Store" />
+          <p>Website Store</p>
+          <p>Lorem ipsum dolor sit amet...</p>
+          <a href="project2.html" class="btn alt">LIVE PAGE</a>
+        </div>
+        <div class="proj">
+          <img src="icons/0957ed75-f8e8-480e-a45b-d879d4080dad.png" alt="Modern App with AI" />
+          <p>Modern App with AI</p>
+          <p>Lorem ipsum dolor sit amet...</p>
+          <a href="project3.html" class="btn alt">LIVE PAGE</a>
+        </div>
+      </div>
+    </section>
+    <section id="contacts" class="contacts">
+      <div class="contacts__container">
+        <div class="contacts__info">
+          <h2 class="contacts__title">CONTACTS</h2>
+          <p class="contacts__lead">Let’s connect. I’m available for freelance and full-time opportunities.</p>
+          <div class="contacts__blocks">
+            <div class="contact-block">
+              <img src="icons/9ae4a16e-946f-4cf3-ac70-5bdcc3b0f715.png" alt="Phone">
+              <div>
+                <span>Phone</span>
+                <a href="tel:+380671234567">+380 67 123 45 67</a>
+              </div>
+            </div>
+            <div class="contact-block">
+              <img src="icons/0a9d97d6-ee9c-4b0d-8d12-8c32f418527f.png" alt="Email">
+              <div>
+                <span>Email</span>
+                <a href="mailto:johndoe@gmail.com">johndoe@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-block">
+              <img src="icons/2394b17a-3c44-482a-b093-b7a53595fe8b.png" alt="Location">
+              <div>
+                <span>Location</span>
+                <span>Ukraine, Kyiv</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contacts__form">
+          <form action="#" method="post" novalidate>
+            <h3 class="form__title">Send a message</h3>
+            <div class="field">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" required minlength="2" maxlength="80" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required minlength="10"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">Send message</button>
+          </form>
+        </div>
+      </div>
+      <div class="foot-bot">
+        <div class="foot-photos">
+          <img src="icons/75127a0b-4c61-4b9b-8d0c-d2c4d560a3c2.png" alt="Facebook">
+          <img src="icons/186731e5-e2a1-4f56-8643-e8fd772bac17.png" alt="Telegram">
+          <img src="icons/f17e1933-0a15-42ad-a569-2d46d7f6ac2e.png" alt="Instagram">
+          <img src="icons/6860ca53-8492-4ca4-bd90-d5afe953389f (1).png" alt="Github">
+        </div>
+        <span class="foot-text">2025 COMPANY NAME</span>
+      </div>
+    </section>
+  </div>
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn.addEventListener('click', () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      if (currentTheme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    });
+  </script>
+</body>
+</html>
